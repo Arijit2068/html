@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Arijit Dey</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+        }
+
+        .main-header {
+            background-color: #5c38dd;
+            color: rgb(13, 14, 4);
+            padding: 100px 0;
+            text-align: center;
+        }
+
+        .main-header h1 {
+            font-size: 3em;
+        }
+
+        .about {
+            margin: 50px 0;
+        }
+
+        .skills {
+            background-color: #2b8df0;
+            padding: 50px 0;
+        }
+        
+
+        .footer {
+            background-color: #343a40;
+            color: rgb(241, 180, 180);
+            padding: 20px 0;
+            text-align: center;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="main-header">
+        <h1>Arijit Dey</h1>
+        <p>Computer Science Engineering Student at Adamas University</p>
+    </header>
+
+    <!-- About Section -->
+   
+    <section class="about container">
+        <h2>About Me</h2>
+        <p>
+            I am a 3rd-year student at Adamas University pursuing a degree in Computer Science Engineering.
+            I have a passion for coding and developing software solutions. My areas of expertise include Python, SQL, HTML, CSS, and more.
+            <div class="row">
+                <div class="col-md-4">
+                    <!-- Insert your picture here -->
+                    <img src="IMG_E2465.JPG" alt="Arijit Dey" class="img-fluid rounded-circle" style="width: 250px;">
+                </div>
+        </p>
+    </section>
+    
+    <!-- Skills Section -->
+    <section class="skills">
+        <div class="container">
+            <h2 class="text-center">Skills</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Python</h5>
+                            <p class="card-text">Proficient in writing efficient and scalable Python code for various applications.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">SQL</h5>
+                            <p class="card-text">Experienced in database management, writing complex SQL queries, and optimizing performance.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">HTML & CSS</h5>
+                            <p class="card-text">Adept at creating responsive and interactive web pages using modern HTML and CSS techniques.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects container">
+        <h2 class="text-center">Projects</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card mb-4">
+                    <div class="card-body">
+                    
+                        <h5 class="card-title">Project 1</h5>
+                        <p class="card-text">Python Project: Student Management System
+                            Description: This project is a Student Management System developed using Python. It helps educational institutions manage student records efficiently. The system allows administrators to perform operations such as adding, updating, deleting, and viewing student information. The data includes details like student ID, name, age, department, and grades.
+                            
+                            The system also incorporates a search functionality, enabling administrators to quickly find specific student details. The project uses SQLite as the database to store student records, and the Tkinter library provides a graphical user interface (GUI), making it user-friendly for non-technical staff.
+                            
+                            Key Features:
+                            
+                            Add, update, delete, and search student records.
+                            View all student details in a structured table.
+                            Store data persistently using an SQLite database.
+                            User-friendly GUI developed with Tkinter.
+                            Technologies Used:
+                            
+                            Python for the backend logic.
+                            SQLite for the database.
+                            Tkinter for the user interface.
+                            This project highlights your skills in Python programming, database management, and GUI development, showing your ability to build practical software solutions.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 2</h5>
+                        <p class="card-text">SQL Project: Online Library Management System
+                            Description: This project is an Online Library Management System designed to efficiently manage the operations of a library using an SQL database. The system tracks books, members, transactions (issue and return), and late fees, ensuring streamlined management of library resources.
+                            
+                            The database contains multiple tables, including:
+                            
+                            Books: Stores book details such as ISBN, title, author, genre, and availability status.
+                            Members: Contains information on library members like member ID, name, contact details, and membership status.
+                            Transactions: Records the issue and return of books, including the date of issue, return, and late fees calculation.
+                            The project uses SQL queries to perform operations such as adding new books and members, searching for books by different criteria, tracking issued books, and generating reports on overdue items. It ensures data integrity and efficiency by applying normalization techniques and indexing on key fields.
+                            
+                            Key Features:
+                            
+                            Efficiently manages book inventory and member information.
+                            Tracks book issues and returns with real-time updates.
+                            Calculates overdue fines based on predefined rules.
+                            Generates reports on book availability, member activity, and overdue books.
+                            Technologies Used:
+                            
+                            SQL for database design and query implementation.
+                            SQL triggers and stored procedures to automate fine calculations and data consistency checks.
+                            Normalization for optimal data structure and efficient query performance.
+                            This project demonstrates your proficiency in database design, data management, and query optimization, showcasing your SQL skills to handle real-world applications.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact container">
+        <h2 class="text-center">Contact Me</h2>
+        <div class="text-center">
+            <a href="mailto:dey951241@gmail.com" class="btn btn-primary">Contact Me</a>
+        </div>
+    </section>
+<!-- Contact Section -->
+
+
+
+        <!-- LinkedIn Icon -->
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/arijit-dey-36a22b244?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">
+                <i class="fab fa-linkedin fa-2x"></i>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 Arijit Dey | Computer Science Engineering Student at Adamas University</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
